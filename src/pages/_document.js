@@ -12,6 +12,11 @@ function MyDocument() {
           href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&
+          display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />

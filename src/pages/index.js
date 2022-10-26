@@ -11,9 +11,9 @@ export default function Home() {
       <Header />
       <div className="flex items-center justify-center h-screen pb-60 bg-[url('/bg.svg')] bg-cover">
         <div className="text-center">
-          <p className="text-8xl font-semibold">
+          <p className="text-8xl font-semibold font-Bodoni">
             BUILD{" "}
-            <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400">
+            <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
               ‘23
             </span>
           </p>
@@ -129,7 +129,7 @@ export default function Home() {
             >
               APPLY NOW
             </Link>
-            <p className="text-4xl font-semibold text-white pl-10">
+            <p className="text-4xl font-semibold text-white pl-10 font-Bodoni">
               BUILD{" "}
               <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300">
                 ‘23

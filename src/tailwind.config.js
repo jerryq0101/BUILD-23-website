@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         Space: ["Space Grotesk", ...defaultTheme.fontFamily.sans],
         PT: ["PT Sans Caption", ...defaultTheme.fontFamily.sans],
+        Bodoni: ["Bodoni Moda", ...defaultTheme.fontFamily.sans],
       },
     },
   },
