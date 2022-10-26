@@ -19,10 +19,10 @@ export default function Home() {
           </p>
           <div className="text-center">
             <p className="text-3xl pt-5">January 21-23, 2023 › UBC › 36 hrs</p>
-            <div className="pt-10">
+            <div className="pt-12">
               <Link
                 href="/"
-                className="py-5 px-6 font-bold font-3xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
+                className="py-6 px-8 font-bold text-xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded-lg"
               >
                 APPLY NOW
               </Link>
@@ -125,7 +125,7 @@ export default function Home() {
             </p>
             <Link
               href="/"
-              className="py-5 px-6 font-bold font-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
+              className="py-5 px-6 font-extrabold text-xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg"
             >
               APPLY NOW
             </Link>
