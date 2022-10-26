@@ -5,11 +5,11 @@ import Footer from "../partials/footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
       <div className="flex items-center justify-center h-screen pb-60 bg-[url('/bg.svg')] bg-cover">
         <div>
-          <p className="text-8xl">BUILD ‘23</p>
+          <p className="text-8xl font-semibold">BUILD ‘23</p>
           <div className="text-center">
             <p className="text-3xl pt-5">January 21-23, 2023 UBC 36 hrs</p>
             <div className="pt-10">
