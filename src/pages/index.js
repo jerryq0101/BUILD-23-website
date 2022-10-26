@@ -9,7 +9,12 @@ export default function Home() {
       <Header />
       <div className="flex items-center justify-center h-screen pb-60 bg-[url('/bg.svg')] bg-cover">
         <div>
-          <p className="text-8xl font-semibold">BUILD ‘23</p>
+          <p className="text-8xl font-semibold">
+            BUILD{" "}
+            <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400">
+              ‘23
+            </span>
+          </p>
           <div className="text-center">
             <p className="text-3xl pt-5">January 21-23, 2023 UBC 36 hrs</p>
             <div className="pt-10">
