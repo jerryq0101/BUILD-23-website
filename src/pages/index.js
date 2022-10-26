@@ -6,7 +6,7 @@ import FaqSection from "../partials/faq";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
       <div className="flex items-center justify-center h-screen pb-60 bg-[url('/bg.svg')] bg-cover">
         <div>
@@ -21,7 +21,7 @@ export default function Home() {
             <div className="pt-10">
               <Link
                 href="/"
-                className="py-5 px-6 font-bold font-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
+                className="py-5 px-6 font-bold font-3xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
               >
                 APPLY NOW
               </Link>
@@ -29,18 +29,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg2.svg')] bg-no-repeat bg-center">
+      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-PT">
         <div className="">
-          <div className="text-6xl max-w-2xl block">
+          <div className="text-6xl max-w-3xl block">
             Vancouver’s in-person Hackathon to{" "}
             <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
               bridge
             </span>
           </div>
-          <p className="text-6xl max-w-2xl font-semibold">
+          <p className="text-6xl max-w-3xl font-semibold">
             STEM and Humanities.
           </p>
-          <p className="text-gray-900 block pt-5 max-w-xl text-xl">
+          <p className="text-gray-900 block pt-5 max-w-2xl text-xl">
             BUILD, hosted by Refoundation, is a hackathon that engages the young
             minds from Vancouver to solve the most pressing issues of today’s
             society. We aimed to create a hackathon to bring together technical
@@ -49,7 +49,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="h-screen pb-40 text-right mx-32">
+      <div className="h-screen pb-40 text-right mx-32 font-PT">
         <div className="text-7xl font-bold">
           <p>Three different tracks,</p>
           <p className="pt-3 text-sky-500">STEM + Humanities</p>
@@ -71,7 +71,9 @@ export default function Home() {
       </div>
       <div className="flex justify-center h-screen pb-40">
         <div>
-          <p className="text-center text-6xl">Frequently Asked Questions</p>
+          <p className="text-center text-6xl font-bold">
+            Frequently Asked Questions
+          </p>
           <div className="pt-10 flex flex-wrap flex-grow flex-col">
             <FaqSection
               q="Who is running the hackathon?"
@@ -102,8 +104,11 @@ export default function Home() {
           <p className="text-center text-3xl text-white">
             INTERESTED IN PARTNERING / SPONSORING?
           </p>
-          <p className="text-center text-xl text-white pt-2">
-            Reach out at info@refoundation.co
+          <p className="text-center text-xl text-white pt-2 font-PT">
+            Reach out at{" "}
+            <span className="text-transparent bg-clip-text transition-colors bg-gradient-to-r to-sky-200 from-blue-500">
+              info@refoundation.co
+            </span>
           </p>
         </div>
       </div>
