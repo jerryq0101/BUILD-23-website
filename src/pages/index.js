@@ -1,5 +1,8 @@
-import Header from "../partials/header";
 import Link from "next/link";
+
+import Header from "../partials/header";
+import Footer from "../partials/footer";
+
 export default function Home() {
   return (
     <div>
@@ -46,6 +49,22 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center h-80 bg-neutral-800">
+        <div>
+          <p className="text-center text-3xl text-white">
+            INTERESTED IN PARTNERING / SPONSORING?
+          </p>
+          <p className="text-center text-xl text-white pt-2">
+            Reach out at info@refoundation.co
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center justify-center h-80 bg-red-800">
+        <div>
+          <p className="text-center text-4xl text-white">APPLY NOW</p>
+        </div>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
