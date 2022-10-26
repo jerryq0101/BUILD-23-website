@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import Header from "../partials/header";
 import Footer from "../partials/footer";
+import FaqSection from "../partials/faq";
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
           <p className="text-6xl max-w-2xl font-semibold">
             STEM and Humanities.
           </p>
-          <p className="text-gray-900 block pt-5 max-w-xl">
+          <p className="text-gray-900 block pt-5 max-w-xl text-xl">
             BUILD, hosted by Refoundation, is a hackathon that engages the young
             minds from Vancouver to solve the most pressing issues of today’s
             society. We aimed to create a hackathon to bring together technical
@@ -51,12 +52,31 @@ export default function Home() {
       <div className="flex items-center justify-center h-screen pb-40">
         tracks
       </div>
-      <div className="flex justify-center h-screen pt-20">
+      <div className="flex justify-center h-screen">
         <div>
           <p className="text-center text-6xl">Frequently Asked Questions</p>
-          <div className="pt-10">
-            <p className="text-center text-xl font-bold pb-2">Question</p>
-            <p className="text-center text-xl pb-3">Response</p>
+          <div className="pt-10 flex flex-wrap flex-grow flex-col">
+            <FaqSection
+              q="Who is running the hackathon?"
+              a="We are (REFOUNDATION). With support from the community in
+                  Vancouver and UBC 🚀"
+            />
+            <FaqSection
+              q="Who can participate?"
+              a="Any middle school, high school, university and non-traditional students are encouraged to participate!"
+            />
+            <FaqSection
+              q="How much does it cost to participate?"
+              a="0$. This event will be free of cost to students to encourage participation of students of all backgrounds."
+            />
+            <FaqSection
+              q="How will team formation work?"
+              a="4-5 people per team. You can create your own team before the hack (Finding a balance between STEM and Humanities focuses is recommended). However, every member will have to apply. "
+            />
+            <FaqSection
+              q="Where will the hackathon take place?"
+              a="University of British Columbia. (Further Details Pending)"
+            />
           </div>
         </div>
       </div>
