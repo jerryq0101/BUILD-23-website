@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import Header from "../partials/header";
 import Footer from "../partials/footer";
@@ -9,7 +10,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
       <div className="flex items-center justify-center h-screen pb-60 bg-[url('/bg.svg')] bg-cover">
-        <div>
+        <div className="text-center">
           <p className="text-8xl font-semibold">
             BUILD{" "}
             <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400">
@@ -49,23 +50,27 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="h-screen pb-40 text-right mx-32 font-PT">
-        <div className="text-7xl font-bold">
-          <p>Three different tracks,</p>
-          <p className="pt-3 text-sky-500">STEM + Humanities</p>
-        </div>
-        <div className="pt-20">
-          <div className="pb-10">
-            <p className="font-bold text-5xl">Poverty</p>
-            <p className="pt-3 text-3xl">Education and social inequalities</p>
+      <div className="h-screen pb-40 text-right font-PT lg:bg-[url('/man.svg')] bg-no-repeat bg-left">
+        <div className=" mx-32 ">
+          <div className="text-7xl font-bold">
+            <p>Three different tracks,</p>
+            <p className="pt-3 text-sky-500">STEM + Humanities</p>
           </div>
-          <div className="pb-10">
-            <p className="font-bold text-5xl">Healthcare</p>
-            <p className="pt-3 text-3xl">Access and quality of healthcare</p>
-          </div>
-          <div className="pb-10">
-            <p className="font-bold text-5xl">Sustainability</p>
-            <p className="pt-3 text-3xl">The environment and climate change</p>
+          <div className="pt-20">
+            <div className="pb-10">
+              <p className="font-bold text-5xl">Poverty</p>
+              <p className="pt-3 text-3xl">Education and social inequalities</p>
+            </div>
+            <div className="pb-10">
+              <p className="font-bold text-5xl">Healthcare</p>
+              <p className="pt-3 text-3xl">Access and quality of healthcare</p>
+            </div>
+            <div className="pb-10">
+              <p className="font-bold text-5xl">Sustainability</p>
+              <p className="pt-3 text-3xl">
+                The environment and climate change
+              </p>
+            </div>
           </div>
         </div>
       </div>
