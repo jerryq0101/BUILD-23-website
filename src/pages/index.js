@@ -21,7 +21,7 @@ export default function Home() {
             <div className="pt-10">
               <Link
                 href="/"
-                className="py-5 px-6 transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
+                className="py-5 px-6 font-bold font-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
               >
                 APPLY NOW
               </Link>
@@ -52,7 +52,7 @@ export default function Home() {
       <div className="flex items-center justify-center h-screen pb-40">
         tracks
       </div>
-      <div className="flex justify-center h-screen">
+      <div className="flex justify-center h-screen pb-40">
         <div>
           <p className="text-center text-6xl">Frequently Asked Questions</p>
           <div className="pt-10 flex flex-wrap flex-grow flex-col">
@@ -90,9 +90,25 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center h-80 bg-[url('/splash.png')] bg-cover">
-        <div>
-          <p className="text-center text-4xl text-white">APPLY NOW</p>
+      <div className="flex h-80 bg-[url('/splash.png')] bg-cover flex-col h-screen">
+        <div className="backdrop-brightness-20 bg-black/30 flex h-full w-full">
+          <div className="flex-1 h-full items-center justify-center flex">
+            <p className="text-center text-3xl text-white font-semibold pr-10">
+              January 21-22, 2023 UBC 36 hrs
+            </p>
+            <Link
+              href="/"
+              className="py-5 px-6 font-bold font-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg hover:bg-gray-100 disabled:opacity-50"
+            >
+              APPLY NOW
+            </Link>
+            <p className="text-4xl font-semibold text-white pl-10">
+              BUILD{" "}
+              <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300">
+                ‘23
+              </span>
+            </p>
+          </div>
         </div>
       </div>
       <Footer></Footer>
