@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center">
-          <span className="text-sm text-gray-400 text-center">
+          <span className="text-sm text-gray-400 text-center sm:py-4">
             © 2022 Refoundation. All Rights Reserved.
           </span>
         </div>

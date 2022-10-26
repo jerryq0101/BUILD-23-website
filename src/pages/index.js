@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
-      <div className="flex items-center justify-center h-screen pb-60 bg-[url('/bg.svg')] bg-cover">
+      <div className="flex items-center justify-center h-screen bg-[url('/bg.svg')] bg-cover">
         <div className="text-center">
           <p className="text-8xl font-semibold font-Bodoni">
             BUILD{" "}
@@ -31,14 +31,14 @@ export default function Home() {
         </div>
       </div>
       <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-PT">
-        <div className="">
-          <div className="text-6xl max-w-3xl block">
+        <div className="mx-8">
+          <div className="md:text-6xl max-w-3xl block text-3xl">
             Vancouver’s in-person Hackathon to{" "}
             <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
               bridge
             </span>
           </div>
-          <p className="text-6xl max-w-3xl font-semibold">
+          <p className="text-3xl md:text-6xl max-w-3xl font-semibold">
             STEM and Humanities.
           </p>
           <p className="text-gray-900 block pt-5 max-w-2xl text-xl">
@@ -50,23 +50,23 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="h-screen pb-40 text-right font-PT lg:bg-[url('/man.svg')] bg-no-repeat bg-left">
-        <div className=" mx-32 ">
-          <div className="text-7xl font-bold">
+      <div className="h-screen mb-40 text-right font-PT lg:bg-[url('/man.svg')] bg-no-repeat bg-left">
+        <div className="mx-8 md:mx-32">
+          <div className="text-4xl md:text-7xl font-bold">
             <p>Three different tracks,</p>
             <p className="pt-3 text-sky-500">STEM + Humanities</p>
           </div>
           <div className="pt-20">
             <div className="pb-10">
-              <p className="font-bold text-5xl">Poverty</p>
+              <p className="font-bold text-4xl md:text-5xl">Poverty</p>
               <p className="pt-3 text-3xl">Education and social inequalities</p>
             </div>
             <div className="pb-10">
-              <p className="font-bold text-5xl">Healthcare</p>
+              <p className="font-bold text-4xl md:text-5xl">Healthcare</p>
               <p className="pt-3 text-3xl">Access and quality of healthcare</p>
             </div>
             <div className="pb-10">
-              <p className="font-bold text-5xl">Sustainability</p>
+              <p className="font-bold text-4xl md:text-5xl">Sustainability</p>
               <p className="pt-3 text-3xl">
                 The environment and climate change
               </p>
@@ -74,9 +74,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-screen pb-40">
+      <div className="flex justify-center mb-20 mx-8">
         <div>
-          <p className="text-center text-6xl font-bold">
+          <p className="text-center text-5xl font-bold md:text-7xl">
             Frequently Asked Questions
           </p>
           <div className="pt-10 flex flex-wrap flex-grow flex-col">
