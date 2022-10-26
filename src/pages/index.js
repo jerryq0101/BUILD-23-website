@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
-      <div className="flex items-center justify-center h-screen bg-[url('/bg.svg')] bg-cover">
+      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover">
         <div className="text-center">
           <p className="text-8xl font-semibold font-Bodoni">
             BUILD{" "}
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-PT">
+      <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-PT">
         <div className="mx-8">
           <div className="md:text-6xl max-w-3xl block text-3xl">
             Vancouver’s in-person Hackathon to{" "}
