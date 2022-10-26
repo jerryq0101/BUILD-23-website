@@ -18,7 +18,7 @@ export default function Home() {
             </span>
           </p>
           <div className="text-center">
-            <p className="text-3xl pt-5">January 21-23, 2023 UBC 36 hrs</p>
+            <p className="text-3xl pt-5">January 21-23, 2023 › UBC › 36 hrs</p>
             <div className="pt-10">
               <Link
                 href="/"
