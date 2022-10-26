@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex items-center justify-center h-screen pb-20">
+      <div className="flex items-center justify-center h-screen pb-60">
         <div>
           <p className="text-8xl">BUILD ‘23</p>
           <div className="text-center">
