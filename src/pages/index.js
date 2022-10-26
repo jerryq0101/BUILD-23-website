@@ -120,7 +120,7 @@ export default function Home() {
       <div className="flex h-80 bg-[url('/splash.png')] bg-cover flex-col h-screen">
         <div className="backdrop-brightness-20 bg-black/30 flex h-full w-full">
           <div className="flex-1 h-full items-center justify-center flex">
-            <p className="text-center text-3xl text-white font-semibold pr-10">
+            <p className="text-center text-3xl text-white font-semibold pr-10 hidden md:block">
               January 21-22, 2023 UBC 36 hrs
             </p>
             <Link
@@ -129,7 +129,7 @@ export default function Home() {
             >
               APPLY NOW
             </Link>
-            <p className="text-4xl font-semibold text-white pl-10 font-Bodoni">
+            <p className="text-4xl font-semibold text-white pl-10 font-Bodoni hidden md:block">
               BUILD{" "}
               <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300">
                 ‘23
