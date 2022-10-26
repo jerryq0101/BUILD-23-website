@@ -59,7 +59,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center h-80 bg-red-800">
+      <div className="flex items-center justify-center h-80 bg-[url('/splash.png')] bg-cover">
         <div>
           <p className="text-center text-4xl text-white">APPLY NOW</p>
         </div>
