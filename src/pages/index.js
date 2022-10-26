@@ -49,8 +49,25 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-40">
-        tracks
+      <div className="h-screen pb-40 text-right mx-32">
+        <div className="text-7xl font-bold">
+          <p>Three different tracks,</p>
+          <p className="pt-3 text-sky-500">STEM + Humanities</p>
+        </div>
+        <div className="pt-20">
+          <div className="pb-10">
+            <p className="font-bold text-5xl">Poverty</p>
+            <p className="pt-3 text-3xl">Education and social inequalities</p>
+          </div>
+          <div className="pb-10">
+            <p className="font-bold text-5xl">Healthcare</p>
+            <p className="pt-3 text-3xl">Access and quality of healthcare</p>
+          </div>
+          <div className="pb-10">
+            <p className="font-bold text-5xl">Sustainability</p>
+            <p className="pt-3 text-3xl">The environment and climate change</p>
+          </div>
+        </div>
       </div>
       <div className="flex justify-center h-screen pb-40">
         <div>
