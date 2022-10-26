@@ -112,7 +112,7 @@ export default function Home() {
           <p className="text-center text-xl text-white pt-2 font-PT">
             Reach out at{" "}
             <span className="text-transparent bg-clip-text transition-colors bg-gradient-to-r to-sky-200 from-blue-500">
-              info@refoundation.co
+              <a href="mailto:info@refoundation.co">info@refoundation.co</a>
             </span>
           </p>
         </div>

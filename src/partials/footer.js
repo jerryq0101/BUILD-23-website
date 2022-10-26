@@ -14,7 +14,7 @@ export default function Footer() {
               If you have any questions or concerns, reach out at
             </p>
             <p className="text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300 pb-5">
-              info@refoundation.co
+              <a href="mailto:info@refoundation.co">info@refoundation.co</a>
             </p>
           </div>
           <div className="flex items-center justify-center pb-2 text-center max-w-2xl md:text-right">
