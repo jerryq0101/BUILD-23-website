@@ -6,8 +6,8 @@ export default function Home() {
       <Header />
       <div className="flex items-center justify-center h-screen pb-20">
         <div>
-          <p className="text-8xl">BUILD '23</p>
-          <div className=" text-center">
+          <p className="text-8xl">BUILD ‘23</p>
+          <div className="text-center">
             <p className="text-3xl pt-5">January 21-23, 2023 UBC 36 hrs</p>
             <div className="pt-10">
               <Link
@@ -17,6 +17,32 @@ export default function Home() {
                 APPLY NOW
               </Link>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center justify-center h-screen pb-40">
+        <div className="">
+          <p className="text-6xl max-w-2xl">
+            Vancouver’s in-person Hackathon to bridge STEM and Humanities.
+          </p>
+          <p className="text-gray-900 block pt-5 max-w-xl">
+            BUILD, hosted by Refoundation, is a hackathon that engages the young
+            minds from Vancouver to solve the most pressing issues of today’s
+            society. We aimed to create a hackathon to bring together technical
+            and humanities disciplines and likeminded youth to spark innovation
+            through interdisciplinary thinking.
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center justify-center h-screen pb-40">
+        tracks
+      </div>
+      <div className="flex justify-center h-screen pt-20">
+        <div>
+          <p className="text-center text-6xl">Frequently Asked Questions</p>
+          <div className="pt-10">
+            <p className="text-center text-xl font-bold pb-2">Question</p>
+            <p className="text-center text-xl pb-3">Response</p>
           </div>
         </div>
       </div>
