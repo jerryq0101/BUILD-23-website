@@ -23,10 +23,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-40">
+      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg2.svg')] bg-no-repeat bg-center">
         <div className="">
-          <p className="text-6xl max-w-2xl">
-            Vancouver’s in-person Hackathon to bridge STEM and Humanities.
+          <div className="text-6xl max-w-2xl block">
+            Vancouver’s in-person Hackathon to{" "}
+            <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
+              bridge
+            </span>
+          </div>
+          <p className="text-6xl max-w-2xl font-semibold">
+            STEM and Humanities.
           </p>
           <p className="text-gray-900 block pt-5 max-w-xl">
             BUILD, hosted by Refoundation, is a hackathon that engages the young
