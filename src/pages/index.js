@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover">
         <div className="text-center">
-          <p className="text-8xl font-semibold font-Bodoni">
+          <p className="text-8xl font-semibold font-Slang">
             BUILD{" "}
             <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
               ‘23
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-PT">
+      <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Suisse">
         <div className="mx-8">
           <div className="md:text-6xl max-w-3xl block text-3xl">
             Vancouver’s in-person Hackathon to{" "}
@@ -50,7 +50,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="h-screen mb-40 text-right font-PT lg:bg-[url('/man.svg')] bg-no-repeat bg-left">
+      <div className="h-screen mb-40 text-right font-Suisse lg:bg-[url('/man.svg')] bg-no-repeat bg-left">
         <div className="mx-8 md:mx-32">
           <div className="text-4xl md:text-7xl font-bold">
             <p>Three different tracks,</p>
@@ -109,7 +109,7 @@ export default function Home() {
           <p className="text-center text-3xl text-white">
             INTERESTED IN PARTNERING / SPONSORING?
           </p>
-          <p className="text-center text-xl text-white pt-2 font-PT">
+          <p className="text-center text-xl text-white pt-2 font-Suisse">
             Reach out at{" "}
             <span className="text-transparent bg-clip-text transition-colors bg-gradient-to-r to-sky-200 from-blue-500">
               <a href="mailto:info@refoundation.co">info@refoundation.co</a>
@@ -129,7 +129,7 @@ export default function Home() {
             >
               APPLY NOW
             </Link>
-            <p className="text-4xl font-semibold text-white pl-10 font-Bodoni hidden lg:block">
+            <p className="text-4xl font-semibold text-white pl-10 font-Slang hidden lg:block">
               BUILD{" "}
               <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300">
                 ‘23
