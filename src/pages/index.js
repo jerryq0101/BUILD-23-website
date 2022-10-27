@@ -117,7 +117,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex h-80 bg-[url('/splash.png')] bg-cover flex-col h-screen">
-        <div className="backdrop-brightness-20 bg-black/30 flex h-full w-full">
+        <div className="backdrop-brightness-50 bg-black/30 flex h-full w-full">
           <div className="flex-1 h-full items-center justify-center flex">
             <p className="text-center text-3xl text-white font-semibold pr-10 hidden lg:block">
               January 21-22, 2023 UBC 36 hrs
