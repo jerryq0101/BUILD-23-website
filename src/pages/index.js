@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 import Header from "../partials/header";
 import Footer from "../partials/footer";
