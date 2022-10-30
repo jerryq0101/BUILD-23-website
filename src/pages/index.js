@@ -8,29 +8,31 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
-      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover">
+      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
         <div className="text-center">
-          <p className="text-8xl font-semibold font-Slang">
-            BUILD{" "}
-            <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
+          <p className="text-8xl font-Slang bg-white p-4 pb-0">
+            BUILD
+            <span className="font-semibold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
               ‘23
             </span>
           </p>
           <div className="text-center">
-            <p className="text-3xl pt-5">January 21-23, 2023 › UBC › 36 hrs</p>
+            <p className="text-2xl pt-5 font-semibold bg-white">
+              January 21-23, 2023 › UBC › 36 hrs
+            </p>
             <div className="pt-12">
               <Link
                 href="/"
-                className="py-6 px-8 font-bold text-xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded-lg"
+                className="py-6 px-10 text-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded"
               >
-                APPLY NOW
+                Apply Now
               </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Suisse">
-        <div className="mx-8">
+      <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Space">
+        <div className="mx-8 md:pl-14 pt-14">
           <div className="md:text-6xl max-w-3xl block text-3xl">
             Vancouver’s in-person Hackathon to{" "}
             <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
@@ -49,24 +51,24 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="h-screen mb-40 text-right font-Suisse lg:bg-[url('/man.svg')] bg-no-repeat bg-left">
-        <div className="mx-8 md:mx-32">
+      <div className="h-screen mb-40 text-right font-Space xl:bg-[url('/man.svg')] bg-no-repeat bg-left">
+        <div className="mx-12 md:mx-32">
           <div className="text-4xl md:text-7xl font-bold">
             <p>Three different tracks,</p>
             <p className="pt-3 text-sky-500">STEM + Humanities</p>
           </div>
           <div className="pt-20">
             <div className="pb-10">
-              <p className="font-bold text-4xl md:text-5xl">Poverty</p>
-              <p className="pt-3 text-3xl">Education and social inequalities</p>
+              <p className="font-bold text-3xl">Poverty</p>
+              <p className="pt-3 text-2xl">Education and social inequalities</p>
             </div>
             <div className="pb-10">
-              <p className="font-bold text-4xl md:text-5xl">Healthcare</p>
-              <p className="pt-3 text-3xl">Access and quality of healthcare</p>
+              <p className="font-bold text-3xl">Healthcare</p>
+              <p className="pt-3 text-2xl">Access and quality of healthcare</p>
             </div>
             <div className="pb-10">
-              <p className="font-bold text-4xl md:text-5xl">Sustainability</p>
-              <p className="pt-3 text-3xl">
+              <p className="font-bold text-3xl">Sustainability</p>
+              <p className="pt-3 text-2xl">
                 The environment and climate change
               </p>
             </div>
@@ -108,7 +110,7 @@ export default function Home() {
           <p className="text-center text-3xl text-white">
             INTERESTED IN PARTNERING / SPONSORING?
           </p>
-          <p className="text-center text-xl text-white pt-2 font-Suisse">
+          <p className="text-center text-xl text-white pt-2 font-Space">
             Reach out at{" "}
             <span className="text-transparent bg-clip-text transition-colors bg-gradient-to-r to-sky-200 from-blue-500">
               <a href="mailto:info@refoundation.co">info@refoundation.co</a>
@@ -124,13 +126,13 @@ export default function Home() {
             </p>
             <Link
               href="/"
-              className="py-5 px-6 font-extrabold text-xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded-lg"
+              className="py-5 px-10 text-xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded"
             >
-              APPLY NOW
+              Apply Now
             </Link>
             <p className="text-4xl font-semibold text-white pl-10 font-Slang hidden lg:block">
-              BUILD{" "}
-              <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300">
+              BUILD
+              <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300 font-Space">
                 ‘23
               </span>
             </p>
