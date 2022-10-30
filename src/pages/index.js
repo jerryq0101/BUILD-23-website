@@ -130,7 +130,7 @@ export default function Home() {
             >
               Apply Now
             </Link>
-            <p className="text-4xl font-semibold text-white pl-10 font-Slang hidden lg:block">
+            <p className="text-4xl text-white pl-10 font-Slang hidden lg:block">
               BUILD
               <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300 font-Space">
                 ‘23
