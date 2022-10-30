@@ -17,8 +17,8 @@ export default function Footer() {
               <a href="mailto:info@refoundation.co">info@refoundation.co</a>
             </p>
           </div>
-          <div className="flex items-center justify-center pb-2 text-center max-w-2xl md:text-right">
-            <p className="text-2xl text-white font-semibold">
+          <div className="flex items-center justify-center pb-2 text-center max-w-3xl md:text-right">
+            <p className="text-xl text-white">
               We are working hard to bring you the best hack experience
               possible, details being finalized - expect changes
             </p>
