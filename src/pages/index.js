@@ -35,11 +35,11 @@ export default function Home() {
           </div>
         </div>
         <div className="col-start-1 row-start-1 mt-auto mx-auto">
-          <img src="/scroll.svg" className="pb-60 md:pb-20" />
+          <img src="/scroll.svg" className="pb-48 md:pb-20" />
         </div>
       </div>
       <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Space">
-        <div className="mx-8 md:pl-14 pt-14">
+        <div className="mx-4 md:mx-8 md:pl-14 pt-14">
           <div className="md:text-6xl max-w-3xl block text-3xl">
             Vancouver’s in-person Hackathon to{" "}
             <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
@@ -58,28 +58,28 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div class="grid pb-10 text-right font-Space">
+      <div class="grid font-Space">
         <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
-        <div class="col-start-1 row-start-1 self-right">
-          <div className="mx-12 md:mx-32">
+        <div class="col-start-1 row-start-1 self-center text-left lg:text-right h-screen">
+          <div className="mx-4 md:mx-8 lg:mx-32">
             <div className="text-4xl md:text-7xl font-bold">
               <p>Three different tracks,</p>
-              <p className="pt-3 text-sky-500">STEM + Humanities</p>
+              <span className="text-sky-500 md:pt-3">STEM + Humanities</span>
             </div>
-            <div className="pt-20">
-              <div className="pb-10">
+            <div className="pt-5 lg:pt-20 mx-0 sm:mx-8 md:mx-0">
+              <div className="pb-5 lg:pb-10">
                 <p className="font-bold text-3xl">Poverty</p>
                 <p className="pt-3 text-2xl">
                   Education and social inequalities
                 </p>
               </div>
-              <div className="pb-10">
+              <div className="pb-5 lg:pb-10">
                 <p className="font-bold text-3xl">Healthcare</p>
                 <p className="pt-3 text-2xl">
                   Access and quality of healthcare
                 </p>
               </div>
-              <div className="pb-10">
+              <div className="pb-5 lg:pb-10">
                 <p className="font-bold text-3xl">Sustainability</p>
                 <p className="pt-3 text-2xl">
                   The environment and climate change
