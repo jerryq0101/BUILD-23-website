@@ -8,24 +8,24 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
-      <div className="grid pb-10 ">
+      <div className="grid pb-10">
         <div className="col-start-1 row-start-1 self-right">
-          <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
+          <div className="flex items-center justify-center h-screen pb-80 md:pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
             <div className="text-center">
-              <p className="text-8xl font-Slang bg-white p-4 pb-0">
+              <p className="text-6xl font-Slang bg-white p-4 pb-0 md:text-8xl">
                 BUILD
                 <span className="font-semibold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
                   ‘23
                 </span>
               </p>
               <div className="text-center">
-                <p className="text-2xl pt-5 font-semibold bg-white">
+                <p className="text-md pt-5 font-semibold bg-white md:text-2xl">
                   January 21-23, 2023 › UBC › 36 hrs
                 </p>
                 <div className="pt-12">
                   <Link
                     href="/"
-                    className="py-6 px-10 text-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded"
+                    className="py-6 px-10 text-md transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded md:text-2xl"
                   >
                     Apply Now
                   </Link>
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-start-1 row-start-1 mt-auto mx-auto">
-          <img src="/scroll.svg" className="pb-20" />
+          <img src="/scroll.svg" className="pb-60 md:pb-20" />
         </div>
       </div>
       <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Space">
@@ -89,9 +89,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mb-20 mx-8">
+      <div className="flex justify-center mb-20 mx-2 md:mx-8">
         <div>
-          <p className="text-center text-5xl font-bold md:text-7xl">
+          <p className="text-center text-4xl font-bold md:text-7xl">
             Frequently Asked Questions
           </p>
           <div className="pt-10 flex flex-wrap flex-grow flex-col">
@@ -119,9 +119,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-80 bg-neutral-800">
+      <div className="flex items-center justify-center h-60 bg-neutral-800">
         <div>
-          <p className="text-center text-3xl text-white">
+          <p className="text-center text-2xl text-white md:text-3xl">
             INTERESTED IN PARTNERING / SPONSORING?
           </p>
           <p className="text-center text-xl text-white pt-2 font-Space">
@@ -132,7 +132,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex h-80 bg-[url('/splash.png')] bg-cover flex-col h-screen">
+      <div className="flex h-40 bg-[url('/splash.png')] bg-cover flex-col md:h-80">
         <div className="backdrop-brightness-50 bg-black/30 flex h-full w-full">
           <div className="flex-1 h-full items-center justify-center flex">
             <p className="text-center text-3xl text-white pr-10 hidden lg:block">

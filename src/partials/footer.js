@@ -18,7 +18,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex items-center justify-center pb-2 text-center max-w-3xl md:text-right">
-            <p className="text-xl text-white">
+            <p className="text-xl text-white pb-5 md:pb-0">
               We are working hard to bring you the best hack experience
               possible, details being finalized - expect changes
             </p>

@@ -12,11 +12,11 @@ export default function Header() {
           </span>
         </Link>
         <div className="w-full block md:w-auto" id="navbar-default">
-          <ul className="flex flex-col p-0 mt-2 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+          <ul className="flex flex-col p-0 mt-2 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
             <li>
               <Link
                 href="/"
-                className="block py-2 pr-4 pl-3 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:p-0"
+                className="block py-2 pr-4 pl-1 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:p-0"
               >
                 PRE-REGISTRATION
               </Link>
@@ -24,7 +24,7 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className="block py-2 pr-4 pl-3 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:p-0"
+                className="block py-2 pr-4 pl-1 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:p-0"
               >
                 CONTACT US
               </Link>
