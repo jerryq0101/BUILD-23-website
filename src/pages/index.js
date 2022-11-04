@@ -8,27 +8,34 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden font-Space">
       <Header />
-      <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
-        <div className="text-center">
-          <p className="text-8xl font-Slang bg-white p-4 pb-0">
-            BUILD
-            <span className="font-semibold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
-              ‘23
-            </span>
-          </p>
-          <div className="text-center">
-            <p className="text-2xl pt-5 font-semibold bg-white">
-              January 21-23, 2023 › UBC › 36 hrs
-            </p>
-            <div className="pt-12">
-              <Link
-                href="/"
-                className="py-6 px-10 text-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded"
-              >
-                Apply Now
-              </Link>
+      <div className="grid pb-10 ">
+        <div className="col-start-1 row-start-1 self-right">
+          <div className="flex items-center justify-center h-screen pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
+            <div className="text-center">
+              <p className="text-8xl font-Slang bg-white p-4 pb-0">
+                BUILD
+                <span className="font-semibold text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-800 from-sky-400 font-Space">
+                  ‘23
+                </span>
+              </p>
+              <div className="text-center">
+                <p className="text-2xl pt-5 font-semibold bg-white">
+                  January 21-23, 2023 › UBC › 36 hrs
+                </p>
+                <div className="pt-12">
+                  <Link
+                    href="/"
+                    className="py-6 px-10 text-2xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded"
+                  >
+                    Apply Now
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+        <div className="col-start-1 row-start-1 mt-auto mx-auto">
+          <img src="/scroll.svg" className="pb-20" />
         </div>
       </div>
       <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Space">
