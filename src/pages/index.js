@@ -68,20 +68,20 @@ export default function Home() {
             </div>
             <div className="pt-5 lg:pt-20 mx-0 sm:mx-8 md:mx-0">
               <div className="pb-5 lg:pb-10">
-                <p className="font-bold text-3xl">Poverty</p>
-                <p className="pt-3 text-2xl">
+                <p className="font-bold text-2xl md:text-3xl">Poverty</p>
+                <p className="pt-3 text-xl md:text-2xl">
                   Education and social inequalities
                 </p>
               </div>
               <div className="pb-5 lg:pb-10">
-                <p className="font-bold text-3xl">Healthcare</p>
-                <p className="pt-3 text-2xl">
+                <p className="font-bold text-2xl md:text-3xl">Healthcare</p>
+                <p className="pt-3 text-xl md:text-2xl">
                   Access and quality of healthcare
                 </p>
               </div>
               <div className="pb-5 lg:pb-10">
-                <p className="font-bold text-3xl">Sustainability</p>
-                <p className="pt-3 text-2xl">
+                <p className="font-bold text-xl md:text-2xl">Sustainability</p>
+                <p className="pt-3 text-xl md:text-2xl">
                   The environment and climate change
                 </p>
               </div>
