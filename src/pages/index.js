@@ -51,7 +51,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div class="grid h-screen text-right font-Space">
+      <div class="grid pb-10 text-right font-Space">
         <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
         <div class="col-start-1 row-start-1 self-right">
           <div className="mx-12 md:mx-32">
