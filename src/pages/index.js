@@ -51,26 +51,33 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="h-screen mb-40 text-right font-Space xl:bg-[url('/man.svg')] bg-no-repeat bg-left">
-        <div className="mx-12 md:mx-32">
-          <div className="text-4xl md:text-7xl font-bold">
-            <p>Three different tracks,</p>
-            <p className="pt-3 text-sky-500">STEM + Humanities</p>
-          </div>
-          <div className="pt-20">
-            <div className="pb-10">
-              <p className="font-bold text-3xl">Poverty</p>
-              <p className="pt-3 text-2xl">Education and social inequalities</p>
+      <div class="grid h-screen text-right font-Space">
+        <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
+        <div class="col-start-1 row-start-1 self-right">
+          <div className="mx-12 md:mx-32">
+            <div className="text-4xl md:text-7xl font-bold">
+              <p>Three different tracks,</p>
+              <p className="pt-3 text-sky-500">STEM + Humanities</p>
             </div>
-            <div className="pb-10">
-              <p className="font-bold text-3xl">Healthcare</p>
-              <p className="pt-3 text-2xl">Access and quality of healthcare</p>
-            </div>
-            <div className="pb-10">
-              <p className="font-bold text-3xl">Sustainability</p>
-              <p className="pt-3 text-2xl">
-                The environment and climate change
-              </p>
+            <div className="pt-20">
+              <div className="pb-10">
+                <p className="font-bold text-3xl">Poverty</p>
+                <p className="pt-3 text-2xl">
+                  Education and social inequalities
+                </p>
+              </div>
+              <div className="pb-10">
+                <p className="font-bold text-3xl">Healthcare</p>
+                <p className="pt-3 text-2xl">
+                  Access and quality of healthcare
+                </p>
+              </div>
+              <div className="pb-10">
+                <p className="font-bold text-3xl">Sustainability</p>
+                <p className="pt-3 text-2xl">
+                  The environment and climate change
+                </p>
+              </div>
             </div>
           </div>
         </div>
