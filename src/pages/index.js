@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import Header from "../partials/header";
 import Footer from "../partials/footer";
@@ -38,28 +39,35 @@ export default function Home() {
           <img src="/scroll.svg" className="pb-48 md:pb-20" />
         </div>
       </div>
-      <div className="flex items-center justify-center h-screen pb-32 bg-[url('/bg2.svg')] bg-no-repeat bg-center font-Space">
-        <div className="mx-4 md:mx-8 md:pl-14 pt-14">
-          <div className="md:text-6xl max-w-3xl block text-3xl">
-            Vancouver’s in-person Hackathon to{" "}
-            <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
-              bridge
-            </span>
+
+      <div class="grid font-Space grid-cols-2 items-end">
+        <div className="col-start-2 row-end-1 xl:block hidden flex ml-auto">
+          <img src="/img2.svg" class="" />
+        </div>
+        <div class="col-start-1 row-end-1 text-left h-screen">
+          <div class="float-left flex md:items-center h-screen">
+            <div className="mx-4 md:mx-16 pb-32">
+              <div className="md:text-7xl max-w-4xl block text-4xl">
+                Vancouver’s in-person Hackathon to{" "}
+                <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
+                  bridge
+                </span>
+              </div>
+              <p className="text-3xl md:text-7xl max-w-4xl font-bold">
+                STEM and Humanities.
+              </p>
+              <p className="text-gray-900 block pt-5 max-w-3xl text-xl">
+                BUILD, hosted by Refoundation, is a hackathon that engages the
+                young minds from Vancouver to solve the most pressing issues of
+                today’s society. We aimed to create a hackathon to bring
+                together technical and humanities disciplines and likeminded
+                youth to spark innovation through interdisciplinary thinking.
+              </p>
+            </div>
           </div>
-          <p className="text-3xl md:text-6xl max-w-3xl font-semibold">
-            STEM and Humanities.
-          </p>
-          <p className="text-gray-900 block pt-5 max-w-2xl text-xl">
-            BUILD, hosted by Refoundation, is a hackathon that engages the young
-            minds from Vancouver to solve the most pressing issues of today’s
-            society. We aimed to create a hackathon to bring together technical
-            and humanities disciplines and likeminded youth to spark innovation
-            through interdisciplinary thinking.
-          </p>
         </div>
       </div>
-
-      <div class="grid font-Space md:pb-40">
+      <div class="grid font-Space">
         <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
         <div class="col-start-1 row-start-1 self-center text-left lg:text-right h-screen">
           <div className="mx-4 md:mx-8 lg:mx-32">
