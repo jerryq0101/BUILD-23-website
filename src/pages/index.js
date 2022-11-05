@@ -56,9 +56,9 @@ export default function Home() {
                 STEM and Humanities.
               </p>
               <p className="text-gray-900 block pt-5 max-w-3xl text-xl">
-                BUILD'23, hosted by Refoundation, is a hackathon that engages
+                BUILD, hosted by Refoundation, is a hackathon that engages
                 the young minds from Vancouver to solve the most pressing issues
-                of today’s society. This is a hackathon to bring together
+                of today&apos;s society. This is a hackathon to bring together
                 technical and humanities disciplines and likeminded youth to
                 spark social good innovation through interdisciplinary thinking.
               </p>
