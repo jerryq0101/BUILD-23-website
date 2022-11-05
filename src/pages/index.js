@@ -57,17 +57,17 @@ export default function Home() {
                 STEM and Humanities.
               </p>
               <p className="text-gray-900 block pt-5 max-w-3xl text-xl">
-                BUILD, hosted by Refoundation, is a hackathon that engages the
+                BUILD'23, hosted by Refoundation, is a hackathon that engages the
                 young minds from Vancouver to solve the most pressing issues of
-                today’s society. We aimed to create a hackathon to bring
+                today’s society. This is a hackathon to bring
                 together technical and humanities disciplines and likeminded
-                youth to spark innovation through interdisciplinary thinking.
+                youth to spark social good innovation through interdisciplinary thinking.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="grid font-Space">
+      <div class="mt-20 grid font-Space">
         <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
         <div class="col-start-1 row-start-1 self-center text-left lg:text-right h-screen">
           <div className="mx-4 md:mx-8 lg:mx-32">
@@ -89,16 +89,16 @@ export default function Home() {
                 </p>
               </div>
               <div className="pb-5 lg:pb-10">
-                <p className="font-bold text-xl md:text-2xl">Sustainability</p>
+                <p className="font-bold text-xl md:text-3xl">Sustainability</p>
                 <p className="pt-3 text-xl md:text-2xl">
-                  The environment and climate change
+                  Environment and climate change
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex justify-center mb-20 mx-2 md:mx-8">
+      <div className="flex justify-center mt-20 mb-20 mx-2 md:mx-8">
         <div>
           <p className="text-center text-4xl font-bold md:text-7xl">
             Frequently Asked Questions
