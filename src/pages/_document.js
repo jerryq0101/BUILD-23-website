@@ -11,7 +11,7 @@ function MyDocument() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <body>
-        <Main />
+        <Main /> 
         <NextScript />
       </body>
     </Html>
