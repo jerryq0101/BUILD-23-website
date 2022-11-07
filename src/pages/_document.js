@@ -4,7 +4,7 @@ function MyDocument() {
   return (
     <Html>
       <Head>
-        <title>BUILD'23</title>
+        <title>BUILD&apos;23</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
           rel="stylesheet"
