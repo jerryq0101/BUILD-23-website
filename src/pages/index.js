@@ -47,7 +47,7 @@ export default function Home() {
           <div class="float-left flex md:items-center h-screen">
             <div className="mx-4 md:mx-16 pb-32">
               <div className="md:text-7xl max-w-4xl block text-4xl">
-                Vancouver's in-person Hackathon to{" "}
+                Vancouver&apos;s in-person Hackathon to{" "}
                 <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
                   bridge
                 </span>
