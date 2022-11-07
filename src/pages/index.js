@@ -47,7 +47,7 @@ export default function Home() {
           <div class="float-left flex md:items-center h-screen">
             <div className="mx-4 md:mx-16 pb-32">
               <div className="md:text-7xl max-w-4xl block text-4xl">
-                Vancouver’s in-person Hackathon to{" "}
+                Vancouver's in-person Hackathon to{" "}
                 <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
                   bridge
                 </span>
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-20 mb-20 mx-2 md:mx-8">
+      <div className="flex justify-center mt-10 mb-20 mx-2 md:mx-8">
         <div>
           <p className="text-center text-4xl font-bold md:text-7xl">
             Frequently Asked Questions
