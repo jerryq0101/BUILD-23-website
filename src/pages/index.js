@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-10 mb-20 mx-2 md:mx-8">
+      <div className="flex justify-center mb-20 mx-2 md:mx-8">
         <div>
           <p className="text-center text-4xl font-bold md:text-7xl">
             Frequently Asked Questions
