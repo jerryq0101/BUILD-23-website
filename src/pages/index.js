@@ -20,7 +20,7 @@ export default function Home() {
               </p>
               <div className="text-center">
                 <p className="text-md pt-5 font-semibold bg-white md:text-2xl">
-                  January 21-23, 2023 › UBC › 36 hrs
+                  January 21-23, 2023 | UBC | 36 hrs
                 </p>
                 <div className="pt-12">
                   <Link
