@@ -39,23 +39,23 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="grid font-Space grid-cols-2 items-end">
+      <div class="grid font-Space grid-cols-1 md:grid-cols-1 items-end">
         <div className="col-start-2 row-end-1 xl:block hidden flex ml-auto">
           <img src="/bg2.png" class="" />
         </div>
-        <div class="col-start-1 row-end-1 text-left h-screen">
-          <div class="float-left flex md:items-center h-screen">
-            <div className="mx-4 md:mx-16 pb-32">
-              <div className="md:text-7xl max-w-4xl block text-4xl">
+        <div class="col-start-1 row-end-1 text-left md:h-screen pb-15 md:pb-0">
+          <div class="float-left flex md:items-center md:h-screen">
+            <div className="mx-4 md:mx-16 md:pb-32">
+              <div className="md:text-7xl md:max-w-4xl max-w-3xl block text-4xl">
                 Vancouver&apos;s in-person Hackathon to{" "}
                 <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
                   bridge
                 </span>
               </div>
-              <p className="text-3xl md:text-7xl max-w-4xl font-bold">
+              <p className="text-4xl md:text-7xl md:max-w-4xl font-bold">
                 STEM and Humanities.
               </p>
-              <p className="text-gray-900 block pt-5 max-w-3xl text-xl">
+              <p className="text-gray-900 block pt-5 md:max-w-3xl text-xl">
                 BUILD, hosted by Refoundation, is a hackathon that engages the
                 young minds from Vancouver to solve the most pressing issues of
                 today&apos;s society. This is a hackathon to bring together
@@ -68,7 +68,7 @@ export default function Home() {
       </div>
       <div class="mt-20 grid font-Space">
         <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
-        <div class="col-start-1 row-start-1 self-center text-left lg:text-right h-screen">
+        <div class="col-start-1 row-start-1 self-center text-left lg:text-right md:h-screen pb-20 md:pb-0">
           <div className="mx-4 md:mx-8 lg:mx-32">
             <div className="text-4xl md:text-7xl font-bold">
               <p>Three different tracks,</p>
