@@ -41,7 +41,7 @@ export default function Home() {
 
       <div class="grid font-Space grid-cols-2 items-end">
         <div className="col-start-2 row-end-1 xl:block hidden flex ml-auto">
-          <img src="/img2.svg" class="" />
+          <img src="/bg2.png" class="" />
         </div>
         <div class="col-start-1 row-end-1 text-left h-screen">
           <div class="float-left flex md:items-center h-screen">
@@ -56,9 +56,9 @@ export default function Home() {
                 STEM and Humanities.
               </p>
               <p className="text-gray-900 block pt-5 max-w-3xl text-xl">
-                BUILD, hosted by Refoundation, is a hackathon that engages
-                the young minds from Vancouver to solve the most pressing issues
-                of today&apos;s society. This is a hackathon to bring together
+                BUILD, hosted by Refoundation, is a hackathon that engages the
+                young minds from Vancouver to solve the most pressing issues of
+                today&apos;s society. This is a hackathon to bring together
                 technical and humanities disciplines and likeminded youth to
                 spark social good innovation through interdisciplinary thinking.
               </p>
