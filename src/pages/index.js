@@ -24,7 +24,8 @@ export default function Home() {
                 </p>
                 <div className="pt-12">
                   <Link
-                    href="/"
+                    href="https://tally.so/r/mJ1lQX"
+                    target="_blank"
                     className="py-6 px-10 text-md transition-colors bg-gradient-to-r from-blue-800 to-sky-400 text-white rounded md:text-2xl"
                   >
                     Apply Now
@@ -147,7 +148,8 @@ export default function Home() {
               January 21-22, 2023 UBC 36 hrs
             </p>
             <Link
-              href="/"
+              href="https://tally.so/r/mJ1lQX"
+              target="_blank"
               className="py-5 px-10 text-xl transition-colors bg-gradient-to-r from-blue-800 to-sky-400 font-medium text-white rounded"
             >
               Apply Now
