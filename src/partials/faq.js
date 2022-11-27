@@ -5,7 +5,7 @@ export default function FaqSection(props) {
         {props.q}
       </p>
       <div className="items-center justify-center flex">
-        <p className="text-center text-xl pb-4 max-w-lg md:text-2xl">
+        <p className="text-center text-xl pb-4 max-w-lg md:text-xl">
           {props.a}
         </p>
       </div>
