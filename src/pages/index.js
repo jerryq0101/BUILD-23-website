@@ -40,12 +40,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="grid font-Suisse grid-cols-1 md:grid-cols-1 items-end">
+      <div className="grid font-Suisse grid-cols-1 md:grid-cols-1 items-end">
         <div className="col-start-2 row-end-1 xl:block hidden flex ml-auto">
-          <img src="/bg2.png" class="" />
+          <img src="/bg2.png" className="" />
         </div>
-        <div class="col-start-1 row-end-1 text-left md:h-screen pb-15 md:pb-0">
-          <div class="float-left flex md:items-center md:h-screen">
+        <div className="col-start-1 row-end-1 text-left md:h-screen pb-15 md:pb-0">
+          <div className="float-left flex md:items-center md:h-screen">
             <div className="mx-4 md:mx-16 md:pb-32">
               <div className="md:text-7xl md:max-w-4xl max-w-3xl block text-4xl">
                 Vancouver&apos;s in-person Hackathon to{" "}
@@ -67,9 +67,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class="mt-20 grid font-Suisse">
-        <img src="/man.svg" class="col-start-1 row-start-1 xl:block hidden" />
-        <div class="col-start-1 row-start-1 self-center text-left lg:text-right md:h-screen pb-20 md:pb-0">
+      <div className="mt-20 grid font-Suisse">
+        <img
+          src="/man.svg"
+          className="col-start-1 row-start-1 xl:block hidden"
+        />
+        <div className="col-start-1 row-start-1 self-center text-left lg:text-right md:h-screen pb-20 md:pb-0">
           <div className="mx-4 md:mx-8 lg:mx-32">
             <div className="text-4xl md:text-7xl font-bold">
               <p>Three different tracks,</p>
@@ -103,8 +106,8 @@ export default function Home() {
           <p className="text-center text-4xl font-bold md:text-7xl">
             Frequently Asked Questions
           </p>
-          <div class="grid grid-flow-row lg:grid-flow-col gap-6 pt-20 justify-center">
-            <div class="flex-col w-full">
+          <div className="grid grid-flow-row lg:grid-flow-col gap-6 pt-20 justify-center">
+            <div className="flex-col w-full">
               <FaqSection
                 q="Who is running the hackathon?"
                 a="Refoundation (us!), and with support from the community from Vancouver + UBC."
@@ -122,7 +125,7 @@ export default function Home() {
                 a="4-5 people per team. You can create your own team before the hack (Finding a balance between STEM and Humanities focuses is recommended). Every member must apply independently. "
               />
             </div>
-            <div class="flex-col">
+            <div className="flex-col">
               <FaqSection
                 q="What is a STEM+Humanities Hackathon?"
                 a="Through BUILD'23, we aim to bridge STEM and Humanities to integrate the potential of emerging technologies for solving real humanitarian crises. There are two types of hackers in BUILD'23; you can be a STEM or Humanities hacker. While STEM hackers are more technical, Humanities hackers consider the societal implementation of tech.  "
