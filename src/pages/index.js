@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <div className="grid pb-10">
         <div className="col-start-1 row-start-1 self-right">
-          <div className="flex items-center justify-center h-screen pb-80 md:pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
+          <div className="flex items-center justify-center h-screen pb-80 md:pb-40 bg-[url(‘/bg.svg‘)] bg-cover bg-center bg-no-repeat">
             <div className="text-center">
               <p className="text-6xl font-Slang bg-white p-4 pb-0 md:text-8xl">
                 BUILD
@@ -128,10 +128,10 @@ export default function Home() {
             <div className="flex-col">
               <FaqSection
                 q="What is a STEM+Humanities Hackathon?"
-                a="Through BUILD'23, we aim to bridge STEM and Humanities to integrate the potential of emerging technologies for solving real humanitarian crises. There are two types of hackers in BUILD'23; you can be a STEM or Humanities hacker. While STEM hackers are more technical, Humanities hackers consider the societal implementation of tech.  "
+                a="Through BUILD‘23, we aim to bridge STEM and Humanities to integrate the potential of emerging technologies for solving real humanitarian crises. There are two types of hackers in BUILD‘23; you can be a STEM or Humanities hacker. While STEM hackers are more technical, Humanities hackers consider the societal implementation of tech.  "
               />
               <FaqSection
-                q="What if I'm a beginner?"
+                q="What if I‘m a beginner?"
                 a="It’s great to hear that you are a beginner! There will be introductory workshops and mentors available at the event. In addition, if you are a humanities oriented participant, you will not be required to program!"
               />
               <FaqSection
@@ -165,7 +165,7 @@ export default function Home() {
       <div className="flex h-40 flex-col md:h-80">
         <div className="h-full items-center justify-center text-center flex">
           <p className="text-transparent bg-clip-text transition-colors bg-gradient-to-r to-blue-600 from-sky-300 pb-5 text-3xl font-bold xs:text-xl">
-            Let's make real change by hacking the future.
+            Let‘s make real change by hacking the future.
           </p>
         </div>
       </div>
