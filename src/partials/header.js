@@ -7,9 +7,9 @@ export default function Header() {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/" className="flex items-center">
           <Image src="/logo.svg" alt="Logo" width={48} height={48} />
-          <span 
+          <span
             className="self-center text-xl font-semibold whitespace-nowrap pl-3"
-            onClick={()=>window.open("https://refoundation.co", "blank")}
+            onClick={() => window.open("https://refoundation.co", "blank")}
           >
             REFOUNDATION
           </span>
@@ -28,7 +28,9 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                onClick={()=>{window.location='mailto:info@refoundation.co'}}
+                onClick={() => {
+                  window.location = "mailto:info@refoundation.co";
+                }}
                 className="block py-2 pr-4 pl-1 text-gray-700 rounded md:hover:bg-transparent md:border-0 md:p-0"
               >
                 CONTACT US

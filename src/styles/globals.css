@@ -6,3 +6,14 @@
   font-family: "GrandSlang";
   src: url("/fonts/GrandSlang.otf");
 }
+
+@font-face {
+  font-family: "Suisse";
+  src: url("/fonts/Suisse-light.otf");
+}
+
+@font-face {
+  font-family: "Suisse";
+  src: url("/fonts/Suisse.otf");
+  font-weight: bold;
+}

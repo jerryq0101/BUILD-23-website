@@ -29,7 +29,7 @@
 <path d="M412 147C412 150.866 415.134 154 419 154H412V147Z" fill="white"/>
 <path d="M405 154C408.866 154 412 150.866 412 147V154H405Z" fill="white"/>
 <defs>
-<radialGradient id="paint0_radial_458_153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(496 137) rotate(96.5794) scale(423.288 361.666)">
+<radialGradient id="paint0_radial_458_153" cx="0" cy="0" r="1" gradientUnits="userSuisseOnUse" gradientTransform="translate(496 137) rotate(96.5794) scale(423.288 361.666)">
 <stop stop-color="#777777"/>
 <stop offset="1" stop-opacity="0.99"/>
 </radialGradient>

@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Space: ["Space Grotesk", ...defaultTheme.fontFamily.sans],
+        Suisse: ["Suisse", ...defaultTheme.fontFamily.sans],
         Slang: ["GrandSlang", ...defaultTheme.fontFamily.sans],
       },
     },
