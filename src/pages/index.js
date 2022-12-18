@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <div className="grid pb-10">
         <div className="col-start-1 row-start-1 self-right">
-          <div className="flex items-center justify-center h-screen pb-80 md:pb-40 bg-[url(‘/bg.svg‘)] bg-cover bg-center bg-no-repeat">
+          <div className="flex items-center justify-center h-screen pb-80 md:pb-40 bg-[url('/bg.svg')] bg-cover bg-center bg-no-repeat">
             <div className="text-center">
               <p className="text-6xl font-Slang bg-white p-4 pb-0 md:text-8xl">
                 BUILD
