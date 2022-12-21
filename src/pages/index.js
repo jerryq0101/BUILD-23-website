@@ -48,20 +48,18 @@ export default function Home() {
           <div className="float-left flex md:items-center md:h-screen">
             <div className="mx-4 md:mx-16 md:pb-32">
               <div className="md:text-7xl md:max-w-4xl max-w-3xl block text-4xl">
-                Vancouver&apos;s in-person Hackathon to{" "}
+                The global Hackathon to{" "}
+
                 <span className="font-bold text-transparent bg-clip-text transition-colors bg-gradient-to-r from-blue-800 to-sky-400">
                   bridge
                 </span>
+                <span className="text-4xl md:text-7xl md:max-w-4xl font-bold"> STEM and</span>
               </div>
               <p className="text-4xl md:text-7xl md:max-w-4xl font-bold">
-                STEM and Humanities.
+                Humanities.
               </p>
               <p className="text-gray-900 block pt-5 md:max-w-3xl text-xl">
-                BUILD, hosted by Refoundation, is a hackathon that engages the
-                young minds from Vancouver to solve the most pressing issues of
-                today&apos;s society. This is a hackathon to bring together
-                technical and humanities disciplines and likeminded youth to
-                spark social good innovation through interdisciplinary thinking.
+                BUILD, hosted by Refoundation, is a hackathon that engages the young minds from the world to solve the most pressing issues of today’s society. We want create a hackathon to bring together technical and humanities disciplines and likeminded youth to spark innovation through interdisciplinary thinking.
               </p>
             </div>
           </div>
@@ -136,7 +134,7 @@ export default function Home() {
               />
               <FaqSection
                 q="What should I bring?"
-                a="Since this is a hybrid event, you will have the opportunity of enjoying the event from your home. Just make sure that you have a stable internet for accessing the hackathon!
+                a="Since this is a virtual event, you will have the opportunity of enjoying the event from your home. Just make sure that you have a stable internet for accessing the hackathon!
 "
               />
             </div>
