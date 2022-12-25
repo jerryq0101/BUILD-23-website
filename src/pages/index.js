@@ -20,7 +20,7 @@ export default function Home() {
               </p>
               <div className="text-center">
                 <p className="text-md pt-5 font-semibold bg-white md:text-2xl">
-                  Febuary 17-18, 2023 › Virtual › 36 hrs of hacking.
+                  Febuary 18-19, 2023 › Virtual › 36 hrs of hacking.
                 </p>
                 <div className="pt-12">
                   <Link
