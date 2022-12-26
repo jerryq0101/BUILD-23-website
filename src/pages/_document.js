@@ -27,7 +27,7 @@ function MyDocument() {
         />
         <meta
           name="keywords"
-          content="Hackathon, Vancouver, UBC, Emerging technology, Blockchain, AI, Sustainability"
+          content="Hackathon, Vancouver, Global, Emerging technology, Blockchain, AI, Sustainability"
         />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

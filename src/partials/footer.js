@@ -17,7 +17,7 @@ export default function Footer() {
         </a>
         <div className="text-center">
           <span className="text-sm text-gray-400 text-center sm:py-4">
-            © 2022-2023 Refoundation. All Rights Reserved.{"  "}⬤{"  "}
+            © 2022-2023 Refoundation. All Rights Reserved.{"  "}•{"  "}
             <Link
               href="/"
               onClick={() => {
