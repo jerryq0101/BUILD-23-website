@@ -108,7 +108,7 @@ export default function Home() {
             <div className="flex-col w-full">
               <FaqSection
                 q="Who is running the hackathon?"
-                a="Refoundation (us!), and with support from the community from Vancouver + UBC."
+                a="Refoundation and with support from UBC Blockchain!"
               />
               <FaqSection
                 q="Who can participate?"
