@@ -112,7 +112,7 @@ export default function Home() {
               />
               <FaqSection
                 q="Who can participate?"
-                a="Any middle school, high school and other non-traditional students are encouraged to participate!"
+                a="Any middle school, high school and other non-traditional, older or younger, students are encouraged to participate!"
               />
               <FaqSection
                 q="How much does it cost to participate?"
