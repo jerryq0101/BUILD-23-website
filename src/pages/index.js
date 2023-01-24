@@ -126,7 +126,7 @@ export default function Home() {
             <div className="flex-col">
               <FaqSection
                 q="What is a STEM+Humanities Hackathon?"
-                a="Through BUILD‘23, we aim to bridge STEM and Humanities to integrate the potential of emerging technologies for solving real humanitarian crises. There are two types of hackers in BUILD‘23; you can be a STEM or Humanities hacker. While STEM hackers are more technical, Humanities hackers consider the societal implementation of tech.  "
+                a="Through BUILD'23, we aim to bridge STEM and Humanities to integrate the potential of emerging technologies for solving real humanitarian crises. Aside from technical presentations in deliverables, hackers solving for any of the three tracks have to show how the project can be implemented into society to address the humanitarian issue. "
               />
               <FaqSection
                 q="What if I‘m a beginner?"
