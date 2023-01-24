@@ -78,7 +78,7 @@ export default function Home() {
             </div>
             <div className="pt-5 lg:pt-20 mx-0 sm:mx-8 md:mx-0">
               <div className="pb-5 lg:pb-10">
-                <p className="font-bold text-2xl md:text-3xl">Poverty</p>
+                <p className="font-bold text-2xl md:text-3xl">Inequalities</p>
                 <p className="pt-3 text-xl md:text-xl">
                   Education and social inequalities
                 </p>
