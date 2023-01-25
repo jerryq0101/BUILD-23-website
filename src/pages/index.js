@@ -20,7 +20,7 @@ export default function Home() {
               </p>
               <div className="text-center">
                 <p className="text-md pt-5 font-semibold bg-white md:text-2xl">
-                  Febuary 18-19, 2023 › Virtual › 36 hrs of hacking.
+                  Febuary 18-19, 2023 › Virtual › 2 days of hacking.
                 </p>
                 <div className="pt-12">
                   <Link
@@ -59,7 +59,7 @@ export default function Home() {
                 Humanities.
               </p>
               <p className="text-gray-900 block pt-5 md:max-w-3xl text-xl">
-                BUILD'23 is an event bridging students' passion for new and emerging technologies and positive social impact. We truly believe that the effective use of technologies in innovative ideas can create impactful solutions that help address the global issues of today. In building this event, we, too, wanted to get non-technical hackers involved through differing deliverable requirements.
+                BUILD&apos;23 is an event bridging students&apos; passion for new and emerging technologies and positive social impact. We truly believe that the effective use of technologies in innovative ideas can create impactful solutions that help address the global issues of today. In building this event, we, too, wanted to get non-technical hackers involved through differing deliverable requirements.
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
             <div className="flex-col">
               <FaqSection
                 q="WTF is a Technology + Society hackathon?"
-                a="Through BUILD'23, we aim to bridge technologies and humanities to integrate the potential of emerging technologies for solving social problems. Aside from technical presentations in deliverables, hackers solving for any of the three tracks have to show how the project can be implemented into society to address the humanitarian issue. "
+                a="Through BUILD&apos;23, we aim to bridge technologies and humanities to integrate the potential of emerging technologies for solving social problems. Aside from technical presentations in deliverables, hackers solving for any of the three tracks have to show how the project can be implemented into society to address the humanitarian issue. "
               />
               <FaqSection
                 q="What if I‘m a beginner?"
