@@ -59,7 +59,7 @@ export default function Home() {
                 Humanities.
               </p>
               <p className="text-gray-900 block pt-5 md:max-w-3xl text-xl">
-                BUILD, hosted by Refoundation, is a hackathon that engages the young minds from the world to solve the most pressing issues of today’s society. We want create a hackathon to bring together technical and humanities disciplines and likeminded youth to spark innovation through interdisciplinary thinking.
+                BUILD'23 is an event bridging students' passion for new and emerging technologies and positive social impact. We truly believe that the effective use of technologies in innovative ideas can create impactful solutions that help address the global issues of today. In building this event, we, too, wanted to get non-technical hackers involved through differing deliverable requirements.
               </p>
             </div>
           </div>
