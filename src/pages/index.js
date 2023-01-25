@@ -74,7 +74,7 @@ export default function Home() {
           <div className="mx-4 md:mx-8 lg:mx-32">
             <div className="text-4xl md:text-7xl font-bold">
               <p>Three different tracks,</p>
-              <span className="text-sky-500 md:pt-3">STEM + Humanities</span>
+              <span className="text-sky-500 md:pt-3">Technology + Society</span>
             </div>
             <div className="pt-5 lg:pt-20 mx-0 sm:mx-8 md:mx-0">
               <div className="pb-5 lg:pb-10">
@@ -116,7 +116,7 @@ export default function Home() {
               />
               <FaqSection
                 q="How much does it cost to participate?"
-                a="0$. This event will be free of cost to students to encourage participation of students of all backgrounds."
+                a="0$. This event will be free of cost to students to encourage participation of all students."
               />
               <FaqSection
                 q="How will team formation work?"
@@ -125,8 +125,8 @@ export default function Home() {
             </div>
             <div className="flex-col">
               <FaqSection
-                q="What is a STEM+Humanities Hackathon?"
-                a="Through BUILD'23, we aim to bridge STEM and Humanities to integrate the potential of emerging technologies for solving real humanitarian crises. Aside from technical presentations in deliverables, hackers solving for any of the three tracks have to show how the project can be implemented into society to address the humanitarian issue. "
+                q="WTF is a Technology + Society hackathon?"
+                a="Through BUILD'23, we aim to bridge technologies and humanities to integrate the potential of emerging technologies for solving social problems. Aside from technical presentations in deliverables, hackers solving for any of the three tracks have to show how the project can be implemented into society to address the humanitarian issue. "
               />
               <FaqSection
                 q="What if I‘m a beginner?"
