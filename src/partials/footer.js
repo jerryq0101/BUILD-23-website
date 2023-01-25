@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="p-4 sm:p-6">
       <div className="mx-auto max-w-screen-xl">
-        <a href="https://refoundation.co" className="">
+        <a href="" className="">
           <div className="md:flex md:justify-center pb-10">
             <div className="flex items-center justify-center">
               <Image src="/logo.svg" alt="Logo" width={48} height={48} />
