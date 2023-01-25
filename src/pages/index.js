@@ -116,7 +116,7 @@ export default function Home() {
               />
               <FaqSection
                 q="How much does it cost to participate?"
-                a="0$. This event will be free of cost to students to encourage participation of all students."
+                a="0$. This event will be free of cost."
               />
               <FaqSection
                 q="How will team formation work?"
