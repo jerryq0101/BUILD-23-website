@@ -130,7 +130,7 @@ export default function Home() {
               />
               <FaqSection
                 q="What if I‘m a beginner?"
-                a="It’s great to hear that you are a beginner! There will be introductory workshops and mentors available at the event. In addition, if you are a humanities oriented participant, you will not be required to program!"
+                a="It’s great that you are a beginner since there will be lots to absorb! There will be a lot of introductory workshops and mentors in the hackathon discord server to support your project."
               />
               <FaqSection
                 q="What should I bring?"
